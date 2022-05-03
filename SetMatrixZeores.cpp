@@ -9,7 +9,7 @@ public:
             if (v[i][j] == 0)
                 v[i][0] = v[0][j] = 0;
     }
-
+//starting from the left 
     for (int i = rows - 1; i >= 0; i--) {
         for (int j = cols - 1; j >= 1; j--)
             if (v[i][0] == 0 || v[0][j] == 0)
